@@ -62,11 +62,13 @@ const ListCard = ({ item }: { item: Dataset }) => {
             <span>Published by</span>
 
             {item.organization?.logo ? (
-              <img
+              <Image
                 src={
                   process.env.NEXT_PUBLIC_API_BASE_URL + item.organization.logo
                 }
                 alt={item.organization.name}
+                width={10}
+                height={10}
                 className="w-6 h-6 rounded-full object-cover border"
               />
             ) : (

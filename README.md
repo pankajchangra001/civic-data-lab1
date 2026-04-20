@@ -19,7 +19,7 @@ A Next.js application to explore datasets with search, filters, sorting, and pag
 
 - `controller/` → Contains business logic and state management  
 - `service/` → Handles API calls  
-- `view/components/` → Common and reusable components  
+- `view/components/` → Common reusable and page components  
 - `app/datasets/` → Dataset listing page and its components  
 - `utils/` → Helper functions (debounce, query params, etc.)
 

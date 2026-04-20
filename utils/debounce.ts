@@ -1,5 +1,3 @@
-// utils/debounce.ts
-
 export const debounce = <T>(fn: (arg: T) => void, delay: number) => {
   let timer: ReturnType<typeof setTimeout>;
 
