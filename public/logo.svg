@@ -1,0 +1,27 @@
+<svg width="260" height="60" viewBox="0 0 260 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+
+  <!-- Icon (network-style) -->
+  <g transform="translate(20,15)" stroke="#F4B860" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- Lines -->
+    <line x1="10" y1="5" x2="20" y2="15"/>
+    <line x1="20" y1="15" x2="10" y2="25"/>
+    <line x1="20" y1="15" x2="30" y2="5"/>
+    <line x1="20" y1="15" x2="30" y2="25"/>
+
+    <!-- Nodes -->
+    <circle cx="10" cy="5" r="3" fill="#2F658A"/>
+    <circle cx="10" cy="25" r="3" fill="#2F658A"/>
+    <circle cx="30" cy="5" r="3" fill="#2F658A"/>
+    <circle cx="30" cy="25" r="3" fill="#2F658A"/>
+    <circle cx="20" cy="15" r="3" fill="#2F658A"/>
+  </g>
+
+  <!-- Text -->
+  <text x="70" y="35"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="18"
+        fill="#E6EEF3">
+    CivicDataSpace
+  </text>
+</svg>
