@@ -43,7 +43,7 @@ const Header = () => {
         </div>
 
         <div className="hidden lg:flex items-center gap-6">
-          <button className="flex items-center gap-1 text-teal-300 uppercase font-semibold">
+          <button className="flex items-center gap-1 text-teal-400 uppercase font-semibold">
             Explore
             <svg
               xmlns="http://www.w3.org/2000/svg"

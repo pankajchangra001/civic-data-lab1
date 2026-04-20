@@ -26,7 +26,7 @@ export default function DatasetClient({ initialState }: DatasetClientProps) {
       />
 
       <div className="flex flex-col  bg-white min-h-screen">
-        <div className="max-w-7xl mx-auto px-4 flex  justify-between bg-white">
+        <div className="max-w-7xl mx-auto  flex  justify-between ">
           {/* Sidebar (Desktop) */}
           <aside className="hidden lg:block w-72 p-4 ">
             <Filters
@@ -82,6 +82,7 @@ export default function DatasetClient({ initialState }: DatasetClientProps) {
                         ? "bg-blue-50 text-blue-600"
                         : "bg-white text-gray-500"
                     }`}
+                    aria-label="Switch to grid view"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -101,6 +102,7 @@ export default function DatasetClient({ initialState }: DatasetClientProps) {
                         ? "bg-blue-50 text-blue-600"
                         : "bg-white text-gray-500"
                     }`}
+                    aria-label="Switch to list view"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -148,10 +150,10 @@ export default function DatasetClient({ initialState }: DatasetClientProps) {
                           actions.setSort(e.target.value, state.order);
                       }}
                       className="bg-transparent text-sm outline-none cursor-pointer"
+                      aria-label="Select the sort"
                     >
                       <option value="recent">Latest Updated</option>
                       <option value="alphabetical">Alphabetical</option>
-                      {/* <option value="downloads">Most Downloaded</option> */}
                     </select>
                   </div>
                   <button
