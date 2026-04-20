@@ -1,5 +1,3 @@
-// dataset.types.ts
-
 import { Aggregations, Dataset } from "@/service/dataset.service";
 
 export type ViewMode = "grid" | "list";

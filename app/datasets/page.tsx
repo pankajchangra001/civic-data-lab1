@@ -1,5 +1,3 @@
-// page.tsx
-
 import { getDatasets } from "@/service/dataset.service";
 import { cleanParams, parseQueryParams } from "@/utils/queryParams";
 import DatasetClient from "../../view/datasetlisting";

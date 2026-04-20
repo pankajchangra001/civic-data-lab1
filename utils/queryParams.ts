@@ -1,5 +1,3 @@
-// queryParams.ts
-
 import { Filters } from "@/controller/dataset.types";
 
 export interface ParsedParams {
